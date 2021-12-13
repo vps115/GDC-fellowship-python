@@ -1,7 +1,11 @@
-Edit following lines of task.test.js to make it compatible with windows 
+Edit following lines of task.test.js to make it compatible with windows
+
 line 11: deleteFile(`${__dirname}\\task.txt`);
+
 line 12: deleteFile(`${__dirname}\\completed.txt`);
+
 line 15: let tasksTxtCli = (...args) => [`.\\task`, ...args].join(" ");
+
 **Converted above lines to original again**
 
 # Global Digital Corps - Software Engineering Test Problem | Priority list
